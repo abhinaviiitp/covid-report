@@ -8,7 +8,6 @@ import { NgmaterialModule } from './ngmaterial.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { StateWiseComponent } from './state-wise/state-wise.component';
-import { AgGridModule } from 'ag-grid-angular';
 import { AgChartsAngularModule } from 'ag-charts-angular';
 import { NationalWiseComponent } from './national-wise/national-wise.component';
 
@@ -22,7 +21,6 @@ import { NationalWiseComponent } from './national-wise/national-wise.component';
     BrowserModule,
     HttpClientModule,
     FormsModule,
-    AgGridModule,
     AgChartsAngularModule,
     ReactiveFormsModule,
     AppRoutingModule,
