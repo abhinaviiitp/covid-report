@@ -1,0 +1,66 @@
+
+.table-container {
+  width: 60%;
+  height: 74vh;
+  overflow: auto;
+  padding: 0;
+}
+
+
+table {
+  width: 100%;
+}
+
+.tbl-row {
+  cursor: pointer;
+}
+
+.table-row:hover {
+  background-color: #e1e3ef;
+}
+
+::ng-deep .mat-table thead {
+  background: #f1f1f1 !important;
+}
+
+::ng-deep .mat-header-cell {
+  color: #021535 !important;
+  font-size: 12px !important;
+  z-index: 90 !important;
+}
+
+::ng-deep tr.mat-header-row {
+  height: 42px !important;
+}
+
+.paginator-container {
+  padding-bottom: 0;
+  padding-top: 10px;
+  height: 45px;
+  padding-right: 0;
+  position: relative;
+  left: 1.4%;
+}
+::ng-deep tr.mat-row, tr.mat-footer-row {
+  height: 42px !important;
+}
+
+::ng-deep .mat-cell, .mat-footer-cell {
+  font-size: 13px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, sans-serif !important;
+}
+
+.form-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-17 {
+  width: 17%;
+}
